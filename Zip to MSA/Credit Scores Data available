@@ -1,0 +1,21 @@
+Data
+
+Figured out a way to correlate MSA and Zip. Looking for correlation with census tract. What columns does census info have?
+
+Freddie Mac
+	Origination Data file
+		Has MSA/MSD for property
+		Has Property State Code
+		Has Zip Code Short (first 3 digits + 00) for property
+
+	Performance Data file
+		No area codes
+
+	STATISTICAL AREA (MSA) OR METROPOLITAN DIVISION - This disclosure will be based on the designation of the Metropolitan Statistical Area or Metropolitan Division based on 2010 census (for Mar 2013 and May 2013 releases) and 2013 census (for Aug 2013 and Dec 2013 releases) data. Metropolitan Statistical Areas (MSAs) are defined by the United States Office of Management and Budget (OMB) and have at least one urbanized area with a population of 50,000 or more inhabitants. OMB refers to an MSA containing a single core with a population of 2.5 million or more, which may be comprised of groupings of counties, as a Metropolitan Division. If an MSA applies to a mortgaged property, the applicable five-digit value is disclosed; however, if the mortgaged property also falls within a Metropolitan Division classification, the applicable five-digit value for the Metropolitan Division takes precedence and is disclosed instead. Changes and/or updates in designations of MSAs or Metropolitan Division will not be reflected in the Single Family Historical Dataset
+
+Fannie Mae
+	Acquisition file
+		Has Property State Code
+		Has Property Zip Code Short (first 3)
+	Performance file
+		Has Property MSA code
